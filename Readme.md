@@ -26,10 +26,10 @@ This repository is an automated web scraping method, to scrape or collect data f
 Here is the variables that you can change to your preference:
 |Variable Name       |Line |Definition                                        |                          
 |--------------------|-----|--------------------------------------------------|
-|Browser driver path |16   |The path to your browser's driver                 |
-|url                 |19   |Tokopedia's url page that you want to scrape      |
-|page                |30   |Range of pages that you want to scrape            |
-|dataset.csv         |97   |Path for the scraping result, saves in .csv format|
+|Browser driver path |49   |The path to your browser's driver                 |
+|url                 |--   |Tokopedia's url page that you want to scrape      |
+|page                |--   |Range of pages that you want to scrape            |
+|dataset.csv         |176  |Path for the scraping result, saves in .csv format|
 
 ## Web scraping result
 Here is the list of column name and definition in `dataset.csv` file:
