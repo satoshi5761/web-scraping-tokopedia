@@ -67,7 +67,7 @@ class Scraper:
             time.sleep(2)
 
             # Scroll the page until the end of the page
-            scroll = 15
+            scroll = 18
             for i in range(scroll):
                 self.driver.execute_script('window.scrollBy(0,500)')
                 time.sleep(0.5)
